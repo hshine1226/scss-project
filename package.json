@@ -1,0 +1,30 @@
+{
+  "name": "scss-project",
+  "version": "1.0.0",
+  "description": "SCSS project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hshine1226/scss-project.git"
+  },
+  "author": "Bellamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hshine1226/scss-project/issues"
+  },
+  "homepage": "https://github.com/hshine1226/scss-project#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
